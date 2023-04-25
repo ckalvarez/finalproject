@@ -1,0 +1,209 @@
+:root{
+    --maroon: rgb(183, 12, 12);
+    --black: rgb(0, 0, 0); 
+    --white: #fff;
+    --blue: rgb(12, 64, 207);
+    --dk-gray: rgb(47, 48, 52); 
+    --font-family: 'kalam', 'Alkatra', 'Permanent Marker', cursive;
+    --headings-font: 'Permanent Marker';
+    --nav-font: 'Alkatra';
+    --body-font: 'kalam';
+}
+body{
+    margin: 0 auto;
+    width: 1280px;
+    font-family: var(--body-font);
+    color: var(--white);
+    background-color: var(--black);
+    background-color: var(--dk-gray);
+    opacity: 1;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, var(--dk-gray) 0, var(--dk-gray) 1px, var(--black) 0, var(--black) 50%);
+
+}
+main{
+    background-color: var(--dk-gray);
+}
+header img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+header{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: var(--maroon);
+    color: var(--white);
+    font-family: var(--headings-font);
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+nav{
+grid-column: 1 / -1;
+text-align: center;
+font-family: var(--nav-font);
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 65px;
+}
+nav a{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: 0 2rem;
+    color: var(--white);
+    background-color: var(--black);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+nav a:hover{
+    color: var(--black);
+    background-color: var(--white);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+h2, h3{
+    font-family: var(--headings-font);
+    width: 1280px;
+    text-align: center;
+    font-size: 2rem;
+    background: var(--maroon);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+footer{
+    background-color: var(--white);
+    color: var(--black);
+    width: 1280px;
+    text-align: center;
+    font-size: small;
+}
+
+#Fusion-Bar img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 50px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+} 
+#Local-Cuisine img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+#Chef-Ly img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+#Fusion-Bar p, #Local-Cuisine p, #Chef-Ly p {
+    width: 1280px;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 70px;
+}
+
+#Fusion-Bar nav a{
+    color: var(--white);
+    background-color: var(--maroon);
+    font-size: 1.5rem;
+ 
+}
+#Fusion-Bar nav a:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+footer{
+    font-size: 1rem;
+}
+#Fusion-Bar h2{
+    margin-bottom: 40px;
+}
+#Fusion-Bar h3{
+    margin-top: 40px;
+}
+#contact img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+#contact p{
+    width: 1280px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input, label, select, textarea{
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+legend{
+    font-weight: bold;
+    
+}
+fieldset{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+input[type=submit]{
+	background-color: var(--maroon);
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: -6px 6px 10px var(--white);
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 150px;
+}
+input[type=submit]:hover{
+	background-color: var(--maroon);
+	border: none;
+	color: var(--black);
+	font-size: 18px;
+	font-weight: 1rem;
+	color: var(--black);
+    background-color: var(--white);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 150px;
+}
+#info{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+input:invalid, select:invalid, textarea:invalid{
+	border: 5px solid var(--maroon);
+	box-shadow: -6px 6px 10px var(--white);
+}
+input:focus, select:focus, textarea:focus{
+	outline: 4px solid var(--black);
+}
+textarea{
+    border-radius: 10%;
+}
